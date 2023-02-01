@@ -1,0 +1,5 @@
+highscore = open("highscore.txt", "w")
+scores = open("scores.txt", "w")
+highscore.write("0")
+highscore.close()
+scores.close()
