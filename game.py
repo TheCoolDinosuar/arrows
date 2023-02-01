@@ -3,6 +3,8 @@ I then added upon.
 """
 
 from random import randint
+from os import getcwd
+
 import pygame
 from pygame.locals import (
     RLEACCEL,
@@ -23,8 +25,7 @@ from pygame.locals import (
 
 pygame.init()
 
-thepath = "C:\\Users\\s-alduan\\OneDrive - Lake Washington School District" \
-"\\coding\\pygame\\first\\tutorialgame"
+thepath = getcwd()
 
 def updateScore(file, score: int, newline=True):
     """Updates score files"""
